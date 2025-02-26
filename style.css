@@ -19,9 +19,14 @@
     a{
         color: white;
         text-decoration: none;
-         
-        &:hover{
-            transform: translate(-50%, -50%) scale(1.1);
-        }
+    }
+}
+
+.btn:hover{
+    background-color: rgba(8, 8, 8, 0.267);
+    transition: 0.5s;
+
+    a{
+        color: black;
     }
 }
